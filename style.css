@@ -1,0 +1,130 @@
+body {
+	background: black;
+	font-family: Helvetica;
+	margin: 0px;
+	padding: 0px;
+}
+.header {
+	display: flex;
+	padding-right: 30px;
+	padding-top: 30px;
+	align-items: center;;
+	justify-content: flex-end;
+}
+.nav {
+	color: white;
+	font-size: 30px;
+	margin-left: 20px;
+}
+.nav:hover {
+	color: #000099;
+}
+.main {
+	background-size: cover;
+	  background-image: url("http://churchstillworks.org/wp-content/uploads/2018/01/AdobeStock_134115811.jpeg");
+}
+.row {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.bubble {
+	padding: 60px;
+	margin-top: 50px;
+	margin-bottom: 50px;
+	background: #00009944;
+	border-radius: 50px;
+}
+.name{
+	font-size: 70px;
+	color: white;
+	margin-bottom: 10px;
+	text-shadow: 3px 3px #000000;
+}
+.column {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+.subtitle {
+	font-style: italic;
+	color: white;
+	font-size: 20px;
+	padding-top: 3px;
+}
+.button {
+	margin-top: 30px;
+	background: none;
+	border-radius: 10px;
+	border: 1px solid white;
+	padding: 10px;
+	color: white;
+}
+.button:hover {
+	background: white;
+	color: #000099;
+}
+.skills {
+	background-image: url('https://img.freepik.com/free-vector/elegant-white-background-with-shiny-lines_1017-17580.jpg?size=626&ext=jpg');
+	text-align: center;
+	background-size: cover;
+}
+.skill-title {
+	color: black;
+	font-size: 50px;
+}
+.skill-list {
+	margin-left: 50px;
+}
+ul {
+	text-align: left;
+	font-size: 25px;
+} 
+.skills-row {
+	padding-top: 50px;
+}
+.testimonials-title {
+	color: white;
+	font-size: 50px;
+}
+.testimonials {
+	text-align: center;
+	background: url('https://img.rawpixel.com/s3fs-private/rawpixel_images/website_content/v748-toon-131_1_1.jpg?w=800&dpr=1&fit=default&crop=default&auto=format&fm=pjpg&q=75&vib=3&con=3&usm=15&bg=F4F4F3&ixlib=js-2.1.2&s=df7667525407d03f585338451e66d6d4');
+	background-size: cover;
+}
+.t-name {
+	color: white;
+	font-size: 30px;
+}
+
+.t-image {
+	padding-left: 60px;
+	padding-right: 10px;
+}
+
+.t-quote {
+	background-image: url('speech.png');
+	background-size: 100% 100%;
+	padding: 20px;
+	padding-left: 40px;
+	background-repeat: no-repeat;
+	background-position: center center;
+}
+.t-quote-text {
+	color: black;
+	font-style: italic;
+	font-size: 25px;
+}
+.t-row {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-top: 50px;
+	padding: 20px;
+	border: 1px dotted #000099;
+}
+
+
+
+
